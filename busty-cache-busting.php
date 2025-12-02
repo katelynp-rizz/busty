@@ -1,10 +1,12 @@
 <?php
 /**
  * Plugin Name: Busty Cache Busting
- * Description: Prevents stale nonces by disabling caching on ACF validation AJAX calls, admin-edit screens,
- *              REST API responses, custom URL-based rules, and user-defined bust routes.
- *              Provides a dedicated admin menu with Overview, Settings, Cache Rules, Routes, Logs, and Dictionary.
- * Version:     1.11
+ * Description: Handles targeted cache busting for routes and requests that must always return fresh data.
+ *              Prevents issues with ACF validation, admin edit screens, REST API responses, and other
+ *              dynamic endpoints by disabling caching and applying rule-based busting. Also supports
+ *              custom URL rules and user-defined bust routes. Includes an admin panel with Overview,
+ *              Settings, Cache Rules, Routes, Logs, and a Dictionary for quick reference.
+ * Version:     1.12
  * Author:      Katelyn Pauley
  * Author URI:  https://katelynpauley.com/
  * License:     GPL2
